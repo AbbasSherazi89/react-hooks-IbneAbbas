@@ -15,7 +15,7 @@ const UseStateHook = () => {
       <div className="container py-5">
         <div className="d-flex">
           <button
-            className="btn btn-outline-success fw-bold"
+            className="btn btn-outline-info fw-bold"
             onClick={() => decrement()}
           >
             {" "}
@@ -23,7 +23,7 @@ const UseStateHook = () => {
           </button>
           <h1 className="mx-3"> {count} </h1>
           <button
-            className="btn btn-outline-success fw-bold"
+            className="btn btn-outline-info fw-bold"
             onClick={() => increment()}
           >
             {" "}

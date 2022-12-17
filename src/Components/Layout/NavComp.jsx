@@ -38,6 +38,11 @@ const NavComp = () => {
                  <button className="btn btn-outline-success">UseRef</button>
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/usecontext">
+                 <button className="btn btn-outline-success">UseContext</button>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
